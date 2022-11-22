@@ -1,0 +1,10 @@
+{
+    "Doughnut":{
+        "color_done": "#6359b0",
+        "color_undone": "#d9d9d9",
+        "color_outline": "#e6e6e6",
+        "rotation": 90,
+        "amount": 1520,
+        "percentage": 10
+    }
+}

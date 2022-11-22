@@ -1,0 +1,734 @@
+#main{
+    height: 100%;
+}
+#sidebar{
+    background-image: -webkit-linear-gradient(#fd4e75, #fc7858);;
+}
+#logo{
+    padding-top: 2.2rem;
+    padding-bottom: 4.2rem;
+    background-color: white;
+    box-shadow: 0.8px 1.3px 7.5px 0 rgba(0, 0, 0, 0.13);
+}
+#logo img{
+    position: absolute;
+    padding-left: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+#sidebar .ui.grid.centered .sidebar_button{
+    height: 5rem;
+    width: 5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 0.7rem;
+}
+
+#sidebar .ui.grid.centered .sidebar_button img{
+    margin-top: -5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+#sidebar .ui.grid.centered .sidebar_button p{
+    width: 7rem;
+    color: white;
+}
+#sidebar_button_upper{
+    margin-top: 1rem;
+}
+#sidebar_button_lower{
+    margin-top: 40rem;
+}
+#sidebar .ui.grid.centered #sidebar_button_upper::after{
+    position: absolute;
+	border-top: 0.6rem solid transparent;
+	border-left: 0.7rem solid #fd4e75;
+	border-bottom: 0.6rem solid transparent;
+    content: "";
+    margin-left: 6.9rem;
+}
+#pusher .ui.grid.middle.aligned #upper_row{
+    padding-top: 2.5rem;
+    padding-bottom: 1.25rem;
+    padding-left: 1rem;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid .upper_row_button{
+    padding-left: 1.5rem;
+    padding-right: 4.5rem;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid .upper_row_button button{
+    background-color: transparent;
+    padding: 0;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid .upper_row_button button #tongle{
+    margin-top: -0.1rem;
+    width: 3rem;
+    height: 2.4rem;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid .upper_row_button #planet_earth img{
+    margin-left: -0.4rem;
+    width: 1.6rem;
+    height: 1.5rem;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid .upper_row_button #planet_earth::after{
+    position: absolute;
+	width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 2rem;
+    background-color: #fd4e75;
+    content: "";
+    margin-left: 0.2rem;
+    margin-top: -0.4rem;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid .upper_row_button button img{
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+    width: 1.8rem;
+    height: 1.5rem;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid #upper_row_search{
+    padding-left: 12rem;
+}
+#upper_row_search .ui.icon.input input{
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    background-color: #f1f1f1;
+    border: 0;
+}
+#upper_row_search .ui.icon.input i{
+    border: 0;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid #upper_row_account{
+    width: 17.5rem;
+    padding-left: 1rem;
+    margin-left: -1.5rem;
+    display: flex;
+    flex-direction: row;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid #upper_row_account img{
+    background-color: black;
+    margin-top: -1.5rem;
+    margin-left: -1rem;
+    margin-bottom: -1.5rem;
+    width: 5.5rem;
+    height: 5.5rem;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid #upper_row_account #account_title{
+    height: 3rem;
+    margin-bottom: -1.5rem;
+    margin-top: -0.75rem;
+    margin-left: 1rem;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid #upper_row_account #account_title #account_name{
+    margin-top: 0.75rem;
+    margin-bottom: 0rem;
+    background: -webkit-linear-gradient(#fd4e75, #fc7858);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid #upper_row_account #account_title #account_status{
+    color:#bfbfbf;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid #upper_row_account #account_extra button{
+    position: absolute;
+    margin-left: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 0;
+    padding-top: 0.2rem;
+}
+#pusher .ui.grid.middle.aligned #upper_row .ui.grid #upper_row_account #account_extra button img{
+    width: 2rem;
+    height: 2.5rem;
+}
+#pusher .ui.grid.middle.aligned #middle_row{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+#pusher .ui.grid.middle.aligned #middle_row #middle_row_button button{
+    padding-top: 1.4rem;
+    border: 0;
+    background-color: white;
+    background: -webkit-linear-gradient(#fd4e75, #fc7858);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#pusher .ui.grid.middle.aligned #middle_row .middle_row_nest{
+    display: flex;
+    flex-wrap: wrap;
+    width: 12rem;
+    padding-left: 2.5rem;
+    margin-left: 2.5rem;
+}
+#pusher .ui.grid.middle.aligned #middle_row .middle_row_nest .nest_title{
+    font-size: 0.9rem;
+    color: #777777;
+}
+#pusher .ui.grid.middle.aligned #middle_row .middle_row_nest .nest_amount{
+    font-size: 1.6rem;
+    background: -webkit-linear-gradient(#fd4e75, #fc7858);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#pusher .ui.grid.middle.aligned #middle_row .middle_row_nest .nest_up_down{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    color: #bfbfbf;
+}
+#pusher .ui.grid.middle.aligned #middle_row .middle_row_nest .nest_up_down .nest_up{
+    margin-left: 0.7rem;
+    width: 2rem;
+}
+#pusher .ui.grid.middle.aligned #middle_row .middle_row_nest .nest_up_down .nest_up::before{
+    position: absolute;
+    border-left: 0.2rem solid transparent;
+	border-right: 0.2rem solid transparent;
+	border-bottom: 0.4rem solid #a889e9;
+    content: "";
+    margin-top: 0.65rem;
+    margin-left: -0.5rem;
+}
+#pusher .ui.grid.middle.aligned #middle_row .middle_row_nest .nest_up_down .nest_down{
+    margin-left: 1rem;
+    width: 2rem;
+}
+#pusher .ui.grid.middle.aligned #middle_row .middle_row_nest .nest_up_down .nest_down::before{
+    position: absolute;
+    border-left: 0.2rem solid transparent;
+	border-right: 0.2rem solid transparent;
+	border-top: 0.4rem solid #fd5670;
+    content: "";
+    margin-top: 0.5rem;
+    margin-left: -0.5rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row{
+    margin-top: -1rem;
+    display: flex;
+    flex-direction: row;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_main{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 80rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    justify-content: center;
+}
+#pusher .ui.grid.middle.aligned #lower_row #linear_chart{
+    width: 50rem;
+    height: 20rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #linear_chart #first_row_linear_chart{
+    margin-top: 2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #linear_chart #first_row_linear_chart #linear_chart_title{
+    margin-right: 8rem;
+    color: #767676;
+    font-size: 1.1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #linear_chart #first_row_linear_chart .column button{
+    height: 2rem;
+    padding-top: 0.5rem;
+    margin-top: -0.5rem;
+    color: #bfbfbf;
+    margin-top: 0rem;
+    background-color: transparent;
+    border: 0;
+}
+#pusher .ui.grid.middle.aligned #lower_row #linear_chart #first_row_linear_chart .column button img{
+    height: 2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #linear_chart #first_row_linear_chart .column .ui.button.selected{
+    background:linear-gradient(to right, #fd4e75 0%, #fc7858 100%);
+    border-radius: 2rem;
+    color: white;
+}
+#pusher .ui.grid.middle.aligned #lower_row #linear_chart #first_row_linear_chart .column .ui.button.icon{
+    padding-top: 0;
+}
+#pusher .ui.grid.middle.aligned #lower_row #linear_chart #first_row_linear_chart .column{
+    height: 4rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #linear_chart #second_row_linear_chart{
+    width: 45rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #doughnut_chart{
+    width: 20rem;
+    height: 20rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+#pusher .ui.grid.middle.aligned #lower_row #doughnut_chart #doughnut_chart_title{
+    font-size: 1.1rem;
+    color: #777777;
+    text-align: center;
+}
+#pusher .ui.grid.middle.aligned #lower_row #doughnut_chart #doughnut_chart_container{
+    height: 15rem;
+    width: 18rem;
+    justify-content: center;
+    padding-left: 4rem;
+    padding-right: 3rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #doughnut_chart .row .nest_up_down{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    color: #bfbfbf;
+    justify-content: center;
+}
+#pusher .ui.grid.middle.aligned #lower_row #doughnut_chart .row .nest_up_down .nest_up{
+    margin-left: 0.7rem;
+    width: 2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #doughnut_chart .row .nest_up_down .nest_up::before{
+    position: absolute;
+    border-left: 0.2rem solid transparent;
+	border-right: 0.2rem solid transparent;
+	border-bottom: 0.4rem solid #a889e9;
+    content: "";
+    margin-top: 0.65rem;
+    margin-left: -0.5rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #doughnut_chart .row .nest_up_down .nest_down{
+    margin-left: 1rem;
+    width: 2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #doughnut_chart .row .nest_up_down .nest_down::before{
+    position: absolute;
+    border-left: 0.2rem solid transparent;
+	border-right: 0.2rem solid transparent;
+	border-top: 0.4rem solid #fd5670;
+    content: "";
+    margin-top: 0.5rem;
+    margin-left: -0.5rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #chat{
+    padding-top: 2rem;
+    width: 30rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#pusher .ui.grid.middle.aligned #lower_row #chat div{
+    width: 28rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #chat .comment{
+    display: inline;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #chat .comment .ui.grid .one.wide.column img{
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #chat .comment .ui.grid .one.wide.column .comment_time{
+    font-size: 0.7rem;
+    color: #979796;
+}
+#pusher .ui.grid.middle.aligned #lower_row #chat .comment .ui.grid .thirteen.wide.column.coment_text{
+    padding-top: 2rem;
+    font-size: 0.8rem;
+    margin-left: 3rem;
+    line-height: 1rem;
+    color: #bfbfbf;
+    height: 1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #chat .comment .ui.grid .thirteen.wide.column.coment_text span{
+    color: #777777;
+    font-weight: 1000;
+}
+#pusher .ui.grid.middle.aligned #lower_row #chat .addition{
+    padding-left: 5rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #chat .addition .addition_block{
+    padding-top: 2rem;
+    height: 8rem;
+    color: #bfbfbf;
+    font-size: 0.8rem;
+    padding-left: 0.8rem;
+    width: 21.5rem;
+    border-left: #f1f1f1 0.2rem solid;
+}
+#pusher .ui.grid.middle.aligned #lower_row #chat .addition .addition_block span{
+    color: #777777;
+    font-weight: 1000;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule{
+    width: 40rem;
+    height: 35rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 3rem;
+    justify-content: center;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_tasks{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    width: 40rem;
+    height: 16rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_tasks #tasks_title{
+    color: #777777;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_tasks .task{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 2.5rem;
+    border-top: #ededed 1px solid;
+    border-bottom: #ededed 1px solid;
+    padding-top: 0.5rem;
+    width: 36rem;
+    font-size: 0.9rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_tasks .task .task_checker{
+    color: #fd566f;
+    margin-right: 2rem;
+    margin-left: 3rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_tasks .task .task_checker::before{
+    position: absolute;
+    border-radius: 2rem;
+    border: #e1e1e1 1px solid;
+    width: 1.2rem;
+    height: 1.2rem;
+    content: "";
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    margin-left: -2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_tasks .task.done .task_checker::before{
+    background-image: linear-gradient(to right, #fd4e75 0%, #fc7858 100%);
+    content: "\2713";
+    color:white;
+    padding-left: 0.15rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_tasks .task .task_lines{
+    color: #bfbfbf;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_tasks .task .task_time{
+    color: #9c9c9c;
+    width: 6rem;
+    margin-left: auto;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_tasks .task .task_time i{
+    width: 0.5rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_tasks .task .task_time span{
+    margin-left: 1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress{
+    padding: 0 1rem;
+    width: 19rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress #progress_title{
+    margin-top: 2rem;
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    color: #777777;
+    font-size: 1.1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress .progressbar{
+    background-color: #f1f1f1;
+    height: 6rem;
+    width: 1rem;
+    margin: 0 0.35rem;
+    border-radius: 1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress .progressbar.middle::before{
+    position: absolute;
+    background: linear-gradient(to top, #8841af 0%, #708ae6 100%);
+    height: 4rem;
+    width: 1rem;
+    content: "";
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress .progressbar.big::before{
+    position: absolute;
+    background: linear-gradient(to top, #8841af 0%, #708ae6 100%);
+    height: 5rem;
+    width: 1rem;
+    content: "";
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress .progressbar.small::before{
+    position: absolute;
+    background: linear-gradient(to top, #8841af 0%, #708ae6 100%);
+    height: 3.5rem;
+    width: 1rem;
+    content: "";
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress #progress_amount{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    background: -webkit-linear-gradient(#8841af, #708ae6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 1000;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress .nest_up_down{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    color: #bfbfbf;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress .nest_up_down .nest_up{
+    margin-left: 0.7rem;
+    width: 2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress .nest_up_down .nest_up::before{
+    position: absolute;
+    border-left: 0.2rem solid transparent;
+	border-right: 0.2rem solid transparent;
+	border-bottom: 0.4rem solid #a889e9;
+    content: "";
+    margin-top: 0.65rem;
+    margin-left: -0.5rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress .nest_up_down .nest_down{
+    margin-left: 1rem;
+    width: 2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_progress .nest_up_down .nest_down::before{
+    position: absolute;
+    border-left: 0.2rem solid transparent;
+	border-right: 0.2rem solid transparent;
+	border-top: 0.4rem solid #fd5670;
+    content: "";
+    margin-top: 0.5rem;
+    margin-left: -0.5rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_shipments{
+    padding: 0 1rem;
+    width: 19rem;
+    height: 16rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_shipments #shipment_title{
+    margin-top: 2rem;
+    width: 100%;
+    height: 2rem;
+    text-align: center;
+    color: #777777;
+    font-size: 1.1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_shipments img{
+    width: 15rem;
+    height: 10rem;
+    margin-bottom: -1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_shipments #shipment_amount{
+    width: 7rem;
+    background: -webkit-linear-gradient(#fd4e75, #fc7858);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 1000;
+    margin-bottom: 1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_shipments .nest_up_down{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    color: #bfbfbf;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_shipments .nest_up_down .nest_up{
+    margin-left: 0.7rem;
+    width: 2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_shipments .nest_up_down .nest_up::before{
+    position: absolute;
+    border-left: 0.2rem solid transparent;
+	border-right: 0.2rem solid transparent;
+	border-bottom: 0.4rem solid #a889e9;
+    content: "";
+    margin-top: 0.65rem;
+    margin-left: -0.5rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_shipments .nest_up_down .nest_down{
+    margin-left: 1rem;
+    width: 2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #schedule #schedule_shipments .nest_up_down .nest_down::before{
+    position: absolute;
+    border-left: 0.2rem solid transparent;
+	border-right: 0.2rem solid transparent;
+	border-top: 0.4rem solid #fd5670;
+    content: "";
+    margin-top: 0.65rem;
+    margin-left: -0.5rem;
+}
+.container{
+    box-shadow: 0.8px 1.3px 7.5px 0 rgba(0, 0, 0, 0.13);
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar{
+    width: 24rem;
+    display: flex;
+    flex-direction: column;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #slides{
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right, #fd4e75 0%, #fc7858 100%);
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #slides button{
+    width: 7.3rem;
+    height: 4rem;
+    margin: 0;
+    border-radius: 0;
+    background-color: transparent;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #slides #slides_friends{
+    background-color: #c54556;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #slides #slides_friends::after{
+    margin-top: 2.7rem;
+    margin-left: -1rem;
+    position: absolute;
+	border-left: 0.4rem solid transparent;
+	border-right: 0.4rem solid transparent;
+	border-top: 0.8rem solid #c54556;
+    content: "";
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friends{
+    height: 35rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2.25rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friends .friend{
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friends .friend img{
+    width: 3rem;
+    margin-right: 1rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friends .friend .friend_status{
+    width: 10.75rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friends .friend .friend_status p{
+    margin-top: 0.3rem;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friends .friend .friend_status .friend_name{
+    color: #777777;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friends .friend .friend_status .friend_status{
+    color: #bfbfbf;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friends .friend button{
+    background-color: transparent;
+    border: 0;
+    align-items: flex-end;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friends .friend button img{
+    width: 1.8rem;
+    height: 1.5rem;
+    margin-top: 0.3rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friend_search{
+    padding-top: 0.5rem;
+    height: 3rem;
+    border: #ebebeb 0.05rem solid;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friend_search .ui.input input{
+    width: 14rem;
+    height: 2rem;
+    background-color: white;
+    margin-left: 1.7rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friend_search .ui.input input::placeholder{
+    font-size: 0.75rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #friend_search img{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.3rem;
+    margin-left: 0.9rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #sites{
+    height: 20rem;
+    padding-top: 2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #sites p{
+    text-align: center;
+    width: 22rem;
+    color: #777777;
+    font-size: 1.2rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #sites #sites_grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 1.7rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #sites #sites_grid button{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 1.7rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #sites #sites_grid button img{
+    margin-left: -0.25rem;
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #sites #sites_grid #rdio{
+    background-image: linear-gradient(to top, #6359b0 0%, #b26ae1 100%);
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #sites #sites_grid #css-3{
+    background-image: linear-gradient(to top left, #4bb9c3 0%, #52e7c5 100%);
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #sites #sites_grid #deviant{
+    background-image: linear-gradient(to top left, #ad6a77 0%, #f6b797 100%);
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #sites #sites_grid #xing{
+    background-image: linear-gradient(to top left, #8841af 0%, #708ae6 100%);
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #sites #sites_grid #vimeo{
+    background-image: linear-gradient(to top left, #5885e8 0%, #29cddd 100%);
+}
+#pusher .ui.grid.middle.aligned #lower_row #lower_row_sidebar #sites #sites_grid #vk{
+    background-image: linear-gradient(to top left, #f48982 0%, #fbda89 100%);
+}

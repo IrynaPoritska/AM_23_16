@@ -1,0 +1,35 @@
+@font-face{
+	font-family: GothamBook;
+	font-display: swap;
+	src: url("../fonts/GothamBook.woff2") format("woff2"), url("../fonts/GothamBook.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Gotham;
+	font-display: swap;
+	src: url("../fonts/GothamMedium.woff2") format("woff2"), url("../fonts/GothamMedium.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: OpenSansLight;
+	font-display: swap;
+	src: url("../fonts/OpenSansLight.woff2") format("woff2"), url("../fonts/OpenSansLight.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face{
+	font-family: OpenSans;
+	font-display: swap;
+	src: url("../fonts/OpenSansRegular.woff2") format("woff2"), url("../fonts/OpenSans-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face{
+	font-family: Roboto;
+	font-display: swap;
+	src: url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
